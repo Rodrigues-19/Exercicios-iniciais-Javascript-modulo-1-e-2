@@ -1,12 +1,13 @@
 // Exercício 1:
 
 function imc (altura, peso) {
-    var altura = prompt ('insira sua altura');
-    var peso = prompt ('Insira seu peso');
-    resultado = (altura * altura) / peso;
-    console.log (resultado);
+
+    return Math.round(peso / (altura * altura));
 }
-imc();
+var altura = prompt ('insira sua altura');
+var peso = prompt ('Insira seu peso');
+var resultado = imc(altura, peso);
+alert(resultado);
 
 // Ou
 
