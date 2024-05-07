@@ -20,16 +20,15 @@ imc();
 
 // Exercício 2:
 
-
-function calculandoFatorial (fatorial) {
-    numeroInformado = prompt ('Que número deseja descobrir o fatorial?');
-    calculo = numeroInformado * n; 
-    function n (repetição) {
-        while (multiplicacao >=1) {
-          calculo = numeroInformado * numeroInformado;
-        } 
-    }
-} calculandoFatorial (); // Está errado.
+function fatorial () {
+  var numeroInformado = prompt ('Que número deseja descobrir o fatorial?'); 
+  while (numeroInformado < numeroInformado) {
+    if (numeroInformado > 0 ) {
+   var multiplicacao = numeroInformado * (numeroInformado-1);
+   return(multiplicacao);
+  }
+  } 
+} fatorial();// Está errado.
 
 // Exercício 3: Coversão dolár - Real.
 var senha = 156298;
